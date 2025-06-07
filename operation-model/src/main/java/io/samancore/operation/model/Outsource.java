@@ -12,7 +12,7 @@ import lombok.extern.jackson.Jacksonized;
         toBuilder = true
 )
 public class Outsource {
-    private Long id;
+    Long id;
     Long contractId;
     Long structureId;
     Long operationId;

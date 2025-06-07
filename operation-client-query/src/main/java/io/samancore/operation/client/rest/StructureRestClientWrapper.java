@@ -66,6 +66,6 @@ public class StructureRestClientWrapper implements StructureClient {
     }
 
     private String generateUrl(String moduleName) {
-        return urlPrefix.concat("operation-").concat(moduleName).concat(urlSuffix);
+        return urlPrefix.concat(moduleName).concat("-operation").concat(urlSuffix);
     }
 }

@@ -1,10 +1,6 @@
 package io.samancore.operation.client.rest;
 
 import io.samancore.operation.model.Contract;
-import io.samancore.operation.model.Operation;
-import io.samancore.operation.model.Reference;
-import io.samancore.operation.model.Structure;
-import io.samancore.operation.request.*;
 import io.smallrye.mutiny.Uni;
 import jakarta.ws.rs.*;
 import org.eclipse.microprofile.rest.client.annotation.RegisterClientHeaders;
