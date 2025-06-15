@@ -20,4 +20,5 @@ public class Reference {
     GeneralStatus status;
     Long outsourceId;
     Outsource outsource;
+    Structure structure;
 }

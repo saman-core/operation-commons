@@ -22,6 +22,4 @@ public class Structure {
     Long createdOperationId;
     Long deletedOperationId;
     GeneralStatus status;
-    List<Reference> references;
-    List<Structure> children;
 }

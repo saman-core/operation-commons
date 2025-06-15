@@ -22,5 +22,4 @@ public class Contract {
     Date createdDate;
     Date lastUpdatedDate;
     GeneralStatus status;
-    List<Operation> operations;
 }
